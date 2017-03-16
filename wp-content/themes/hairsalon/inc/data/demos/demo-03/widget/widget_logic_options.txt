@@ -1,0 +1,16 @@
+[START=WIDGET LOGIC OPTIONS]
+text-7	""
+text-9	""
+text-11	"is_page(\\'about-us\\') || is_archive() || is_home()"
+text-4	""
+nav_menu-3	""
+nav_menu-4	""
+woocommerce_product_categories-2	""
+text-13	""
+text-14	""
+text-2	""
+search-4	""
+woocommerce_widget_cart-2	""
+text-5	""
+woocommerce_price_filter-3	""
+[STOP=WIDGET LOGIC OPTIONS]

@@ -1,0 +1,62 @@
+.tc-registration-wrapper {
+	.tc-steps {
+		font-size: 3.5em;
+		margin-bottom: 0.5em;
+
+		.icon-lock {
+			color: #F44336;
+		}
+
+		.icon-unlock {
+			color: #4CAF50;
+		}
+
+		.icon-mouse-left {
+			color: #9E9E9E;
+		}
+
+		.next {
+			color: #9E9E9E;
+			font-size: 0.5em;
+			position: relative;
+			top: -0.3em;
+		}
+	}
+
+	h3 {
+		margin: 0;
+		line-height: 2.4em;
+		font-size: 1.2em;
+		font-weight: 600;
+	}
+
+	form {
+		.activate-btn {
+			display: block;
+			margin: 1em auto 1em;
+		}
+
+		.or {
+			margin-bottom: 1em;
+		}
+
+		.purchase-link {
+			display: inline-block;
+			font-size: 0.8em;
+			font-style: italic;
+		}
+	}
+
+	#input-token {
+		padding: 0.5em 1em;
+		font-size: 1.4em;
+		font-weight: 300;
+		margin-bottom: 1em;
+		text-align: center;
+	}
+
+	.guide {
+		font-size: 1em;
+		margin: 0;
+	}
+}

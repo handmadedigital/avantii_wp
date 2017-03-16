@@ -1,0 +1,29 @@
+.thim-sc-counter-box {
+  text-align: center;
+  .wrapper-counter-box {
+    text-align: inherit;
+    border-width: 8px;
+    border-style: solid;
+    padding: 40px 0;
+    display: inline-block;
+    .counter-box-item {
+      display: inline-block;
+      border-right-style: solid;
+      border-right-width: 1px;
+      padding: 20px 80px;
+      vertical-align: middle;
+      &:last-child {
+        border: none;
+      }
+      .number {
+        font-size: 100px;
+        min-height: 75px;
+        width: 100px;
+      }
+      .text {
+        font-size: 24px;
+        display: block;
+      }
+    }
+  }
+}

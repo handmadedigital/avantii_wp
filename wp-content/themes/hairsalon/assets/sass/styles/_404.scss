@@ -1,0 +1,18 @@
+/**
+ * Style for 404 page */
+
+.error404 {
+  #main-content {
+    background-color: #f6f6f6 !important;
+    text-align: center;
+    .site-content {
+      padding-top: 257px;
+      padding-bottom: 245px;
+      .message {
+        padding-top: 33px;
+        font-size: 24px;
+        line-height: 45px;
+      }
+    }
+  }
+}

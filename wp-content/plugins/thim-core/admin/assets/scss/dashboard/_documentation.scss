@@ -1,0 +1,25 @@
+.tc-documentation-wrapper {
+	.box {
+		margin-bottom: 30px;
+
+		.description {
+			min-height: 120px;
+		}
+	}
+
+	h3 {
+		margin: 0 0 0.5em;
+		font-size: 1.1em;
+		line-height: 2em;
+		font-weight: 500;
+
+		span {
+			padding-right: 0.4em;
+			font-size: 1.2em;
+		}
+	}
+
+	@media all {
+
+	}
+}

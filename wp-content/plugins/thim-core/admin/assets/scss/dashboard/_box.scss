@@ -1,0 +1,60 @@
+.tc-box {
+	background-color: #fff;
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+	margin-bottom: 2em;
+
+	.tc-box-header {
+		border-bottom: 1px solid #eee;
+		box-shadow: 1px 0 1px 1px rgba(0,0,0,0.1);
+		position: relative;
+		z-index: 1;
+
+		.tc-box-status {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 4.2em;
+			height: 4.2em;
+			z-index: 9;
+			text-align: center;
+			box-shadow: -1px 0 1px 1px rgba(0,0,0,0.1);
+
+			&.lock {
+				color: #F44336;
+				background-color: rgba(244, 67, 54, 0.1);
+			}
+
+			&.unlock {
+				color: #4CAF50;
+				background-color: rgba(76, 175, 80, 0.1);
+			}
+
+			span {
+				font-size: 2.4em;
+				display: inline-block;
+				transform: translate(0, 0.4em);
+			}
+		}
+
+		.box-title {
+			margin: 0;
+			padding: 0 5em 0 1em;
+			height: 3.5em;
+			line-height: 3.5em;
+			font-size: 1.2em;
+			font-weight: 600;
+			z-index: 1;
+		}
+	}
+
+	.tc-box-body {
+		padding: 2em 1em 2em;
+	}
+
+	.tc-box-footer {
+		border-top: 1px solid #eee;
+		height: 3.5em;
+		line-height: 3.5em;
+		padding: 0 1em;
+	}
+}

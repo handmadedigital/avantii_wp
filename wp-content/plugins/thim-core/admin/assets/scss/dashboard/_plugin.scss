@@ -1,0 +1,44 @@
+//Style for tab Plugins
+.thim-wrapper {
+	.plugin-tab {
+		.list-plugins {
+			margin-left: -8px;
+			margin-right: -8px;
+			.plugin-card {
+				margin-left: 8px;
+				margin-right: 8px;
+				width: calc(50% - 16px);
+				clear: none !important;
+
+				&.required {
+                  position: relative;
+
+					&:before {
+						content: 'Required';
+                      background-color: #f44336;
+                      color: #fff;
+                      padding: 10px;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      z-index: 9;
+					}
+				}
+
+				.plugin-action-buttons {
+					button {
+						&[data-action="install"] {
+							background: #0085ba;
+							border-color: #0073aa #006799 #006799;
+							-webkit-box-shadow: 0 1px 0 #006799;
+							box-shadow: 0 1px 0 #006799;
+							color: #fff;
+							text-decoration: none;
+							text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+						}
+					}
+				}
+			}
+		}
+	}
+}

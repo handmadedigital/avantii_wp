@@ -1,0 +1,36 @@
+.thim-sc-heading {
+	text-align: center;
+	.heading-des {
+		padding-top: 52px;
+	}
+	.heading-button {
+		padding-top: 25px;
+		a {
+			position: relative;
+			text-transform: uppercase;
+			font-size: 13px;
+			font-weight: 700;
+			&:before, &:after {
+				content: '';
+				position: absolute;
+				bottom: -5px;
+				left: 0;
+				right: 0;
+				border-bottom: 2px solid;
+				border-color: transparent;
+			}
+
+			&:before {
+				z-index: 2;
+				@include scale(0, 1);
+				@include transition(all .3s ease-in-out 0s);
+			}
+
+			&:hover {
+				&:before {
+					@include scale(1, 1);
+				}
+			}
+		}
+	}
+}

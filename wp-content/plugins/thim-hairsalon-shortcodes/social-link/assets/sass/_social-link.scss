@@ -1,0 +1,88 @@
+.thim-sc-social-link {
+  margin: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0;
+    }
+    a {
+      font-size: 18px;
+    }
+  }
+
+  &.style-02 {
+    li {
+      a {
+        &.face {
+          color: #314B7C;
+        }
+        &.twitter {
+          color: #339DC4;
+        }
+        &.skype {
+          color: #01ABE9;
+        }
+        &.pinterest {
+          color: #B31217;
+        }
+        &.google {
+          color: #DC4335;
+        }
+        &.dribble {
+          color: #EE5188;
+        }
+        &.linkedin {
+          color: #007BB6;
+        }
+        &.digg {
+          color: #005F93;
+        }
+        &.youtube {
+          color: #E32C26;
+        }
+        &.instagram {
+          color: #D95443;
+        }
+      }
+    }
+  }
+
+  &.style-03 {
+    li {
+      a {
+        &.face:hover {
+          color: #314B7C;
+        }
+        &.twitter:hover {
+          color: #339DC4;
+        }
+        &.skype:hover {
+          color: #01ABE9;
+        }
+        &.pinterest:hover {
+          color: #B31217;
+        }
+        &.google:hover {
+          color: #DC4335;
+        }
+        &.dribble:hover {
+          color: #EE5188;
+        }
+        &.linkedin:hover {
+          color: #007BB6;
+        }
+        &.digg:hover {
+          color: #005F93;
+        }
+        &.youtube:hover {
+          color: #E32C26;
+        }
+        &.instagram:hover {
+          color: #D95443;
+        }
+      }
+    }
+  }
+}

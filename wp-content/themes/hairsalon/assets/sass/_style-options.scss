@@ -1,0 +1,34 @@
+/*
+ * Style Options
+ * Import style option all shortcodes, widgets
+ * Style all selector variable form customizer */
+
+$dev: true;
+
+@import "variables";
+
+@import "features/preloading/style-options";
+@import "features/back-to-top/back-to-top-options";
+@import "header/header-options";
+@import "breadcrumb/breadcrumb-options";
+@import "blog/blog-options";
+@import "sidebar/sidebar-options";
+@import "footer/footer-options";
+@import "typography/typography-options";
+@import "background/background-options";
+@import "buttons/buttons-options";
+@import "styles/styles-options";
+@import "woocommerce/woo-options";
+@import "vc-shortcodes/shortcodes-default-options";
+@import "book-online/book-online-options";
+@import "search/search-options";
+
+// shortcodes
+@import "shortcodes/heading-options";
+@import "shortcodes/social-link-options";
+@import "shortcodes/services-options";
+@import "shortcodes/counter-box-options";
+@import "shortcodes/our-team-options";
+@import "shortcodes/textbox-options";
+@import "shortcodes/video-options";
+

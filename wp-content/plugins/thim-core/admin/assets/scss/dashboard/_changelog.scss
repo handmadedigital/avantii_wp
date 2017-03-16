@@ -1,0 +1,68 @@
+.tc-changelog-wrapper {
+	h2 {
+		font-size: 2em;
+		margin-bottom: 1.5em;
+	}
+
+	.versions {
+		max-height: 450px;
+		overflow-y: auto;
+
+		> div {
+			margin-bottom: 40px;
+
+			h3 {
+				font-weight: 500;
+				font-size: 1.25em;
+				margin-bottom: 20px;
+			}
+
+			.features,
+			.update,
+			.fixes {
+				font-size: 0.9em;
+				font-weight: 500;
+				text-transform: uppercase;
+
+				&:before {
+					font-family: "icomoon";
+					font-size: 1.5em;
+					position: relative;
+					top: 5px;
+					padding-right: 10px;
+				}
+			}
+
+			.features {
+				&:before {
+					content: "\e990";
+					color: #2196F3;
+				}
+			}
+
+			.update {
+				&:before {
+					content: "\ebda";
+					color: #4CAF50;
+
+				}
+			}
+
+			.fixes {
+				&:before {
+					content: '\ec0a';
+					color: #F44336;
+				}
+			}
+		}
+
+		ul {
+			list-style: disc !important;
+			padding-left: 20px;
+
+			li {
+
+			}
+		}
+	}
+}

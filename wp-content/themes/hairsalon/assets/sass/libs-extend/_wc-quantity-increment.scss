@@ -1,0 +1,78 @@
+// Variables
+$primary:           #a46497;                                    // Primary colour for buttons (alt)
+$primarytext:       desaturate(lighten($primary, 50%), 18%);    // Text on primary colour bg
+
+$secondary:         desaturate(lighten($primary, 40%), 21%);    // Secondary buttons
+$secondarytext:     desaturate(darken($secondary, 60%), 21%);   // Text on secondary colour bg
+
+/**
+ * Styling begins
+ */
+.woocommerce, .woocommerce-page {
+	#quantity,
+	#content .quantity {
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+			display: none;
+		}
+	}
+	/**
+	 * Quantity inputs
+	 */
+	.quantity {
+		position: relative;
+		margin: 0 auto;
+		overflow: hidden;
+		zoom: 1;
+		padding-right: 1.1em;
+		display: inline-block;
+
+		input.qty {
+			width: 2.618em;
+			height: 2.1em;
+			float: left;
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			border: 1px solid darken( $secondary, 20% );
+			font-weight: 700;
+			border-radius: 2px 0 0 2px;
+			-moz-appearance: textfield; /* Hide buttons for Firefox 29 and later */
+		}
+
+		/* Hide buttons for opera */
+		noindex:-o-prefocus, input[type=number] {
+			padding-right: 1.2em;
+		}
+
+		.minus, .plus {
+			width: 35px;
+			height: 35px;
+			display: block;
+			cursor: pointer;
+			float: left;
+			text-align: center;
+			line-height: 35px;
+			.inner{
+				width: 12px;
+				height: 11px;
+				border: 1px solid #ccc;
+				border-right-width: 2px;
+				border-left-width: 2px;
+				@include rounded(3px);
+				line-height: 9px;
+				text-align: center;
+				color: #ccc;
+				background: #fff;
+				margin-top: 11px;
+				font-weight: 300;
+				font-size: 14px;
+				padding-left: .5px;
+				display: inline-block;
+			}
+			&:hover{
+				background-color: $border-color;
+			}
+		}
+	}
+}

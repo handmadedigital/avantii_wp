@@ -1,0 +1,17 @@
+.thim-sc-heading{
+	.article_heading{
+		font-family: $thim_font_title_font_family;
+	}
+	i{
+		color: $thim_body_primary_color;
+	}
+	.heading-button a {
+		&:hover {
+			color: $thim_body_primary_color;
+			&:before {
+				border-color: $thim_body_primary_color;
+			}
+		}
+	}
+}
+

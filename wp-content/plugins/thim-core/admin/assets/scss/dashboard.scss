@@ -1,0 +1,121 @@
+@import "dashboard/boostrap_gird";
+@import "dashboard/box";
+@import "dashboard/notice";
+@import "dashboard/modal";
+@import "dashboard/dashboard";
+@import "dashboard/documentation";
+@import "dashboard/product_registration";
+@import "dashboard/changelog";
+@import "dashboard/importer";
+@import "dashboard/plugin";
+@import "dashboard/update";
+@import "dashboard/getting-started";
+
+.tc-loading {
+	position: relative;
+
+	&:before {
+		content: '';
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-top: 1px solid #3498db;
+		border-radius: 50%;
+		width: 1em;
+		height: 1em;
+		animation: spinner 0.8s linear infinite;
+		position: absolute;
+		z-index: 2;
+		top: 0.6em;
+		left: 20px;
+	}
+}
+
+@keyframes spinner {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.thim-dashboard {
+	.tc-button {
+		padding: 5px 20px 6px;
+		height: auto;
+		font-size: 0.9em;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	&.thim-modal-open {
+		.thim-wrapper {
+			-webkit-filter: blur(3px);
+			-moz-filter: blur(3px);
+			filter: blur(3px);
+		}
+	}
+
+	.thim-wrapper {
+		.wrap {
+			margin-right: 0;
+		}
+	}
+}
+
+.tc-nav-tab-wrapper {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 3em;
+}
+
+.notice, .updated, .update-nag, .sb_instagram_notice, .sbi_notice, div.error {
+	display: none !important;
+}
+
+.thim-wrapper {
+	max-width: 77em;
+	margin-top: 1em;
+	font-size: 1.15em;
+	position: relative;
+
+	.tc-header {
+		.title {
+			position: relative;
+			display: block;
+			min-height: 5em;
+			margin-bottom: 1em;
+
+			h1 {
+				margin: 0;
+				font-size: 2em;
+				padding: 30px 10px;
+				font-weight: 500;
+				display: inline-block;
+			}
+
+			.version {
+				position: absolute;
+				top: 50%;
+				left: auto;
+				background-color: #424242;
+				color: #fff;
+				padding: 0.7em 1.2em;
+				-webkit-transform: translateY(-50%);
+				-moz-transform: translateY(-50%);
+				-ms-transform: translateY(-50%);
+				-o-transform: translateY(-50%);
+				transform: translateY(-50%);
+				border-radius: 5px;
+				margin-left: 1em;
+			}
+		}
+	}
+
+	* {
+		//box-sizing: border-box;
+	}
+
+	/* Fix box-sizing for column Bootstrap*/
+	*[class^="col-"] {
+		box-sizing: border-box;
+	}
+}

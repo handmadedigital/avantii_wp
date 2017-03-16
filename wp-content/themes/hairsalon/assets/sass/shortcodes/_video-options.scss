@@ -1,0 +1,16 @@
+.thim-sc-video {
+  .video-content {
+    p.watch {
+      color: $thim_font_title_color;
+    }
+  }
+  .toggle-video {
+    border: 3px solid $thim_body_primary_color !important;
+    &:before {
+      color: $thim_body_primary_color;
+    }
+    &:hover {
+      background-color: $thim_body_primary_color;
+    }
+  }
+}

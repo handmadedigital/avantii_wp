@@ -1,0 +1,31 @@
+// Shortcode Thim Posts
+.thim-sc-posts {
+  &.no-bg .blog-content article .content-inner {
+    background: transparent;
+  }
+  &.site-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    .blog-content {
+      height: auto !important;
+      article {
+        margin-bottom: 10px;
+        .entry-top {
+          text-align: center;
+        }
+        .entry-meta a {
+          font-weight: 400;
+        }
+      }
+    }
+    &.author-normal {
+      .blog-content {
+        article {
+          .entry-meta a {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

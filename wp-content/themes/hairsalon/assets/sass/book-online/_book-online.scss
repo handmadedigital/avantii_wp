@@ -1,0 +1,273 @@
+.screen-reader-response {
+  display: none;
+}
+
+#ui-datepicker-div {
+  border-radius: 0;
+  border: 1px solid $border-color;
+  z-index: 9999 !important;
+  button,
+  button:focus,
+  select,
+  select:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+  .ui-timepicker-div {
+    select {
+      background: #fff !important;
+      padding: 4px 0;
+    }
+
+    > dl {
+      margin-bottom: 0;
+      padding-top: 20px;
+      &:after {
+        display: block;
+        content: '';
+        clear: both;
+      }
+    }
+    .ui_tpicker_time {
+      width: 100%;
+    }
+    .ui_tpicker_hour,
+    .ui_tpicker_minute,
+    .ui_tpicker_hour_label,
+    .ui_tpicker_minute_label {
+      width: 50%;
+      float: left;
+    }
+    .ui_tpicker_hour,
+    .ui_tpicker_minute {
+      text-align: left;
+    }
+  }
+
+  select {
+    margin: 0;
+    &.ui-timepicker-select {
+      width: 50%;
+    }
+  }
+  .ui-datepicker-next,
+  .ui-datepicker-prev {
+    &.ui-state-hover {
+      background: transparent !important;
+    }
+    span {
+      margin-top: -5px !important;
+    }
+  }
+  .ui-state-highlight,
+  .ui-widget-content .ui-state-highlight,
+  .ui-widget-header .ui-state-highlight {
+    color: #fff;
+  }
+  .ui-state-hover {
+    color: #fff;
+  }
+
+  .ui-datepicker-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    border-radius: 0;
+    line-height: 26px;
+    font-weight: bold;
+  }
+  .ui-datepicker-header {
+    border: 0!important;
+    background: transparent;
+    .ui-datepicker-prev {
+      left: 1px;
+    }
+    .ui-datepicker-next {
+      right: 1px;
+    }
+  }
+  .ui-datepicker-buttonpane {
+    button {
+      font-size: 13px;
+      color: #fff;
+      padding: 0 20px;
+      border: none !important;
+    }
+  }
+  .ui-datepicker-prev, .ui-datepicker-next {
+    border: 0!important;
+    top: 0;
+  }
+  .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-radius: 0;
+    border: 1px solid $border-color;
+  }
+  dt {
+    font-size: 13px;
+    line-height: 26px;
+  }
+
+  dd {
+    font-size: 18px;
+    margin-bottom: 17px;
+  }
+  th {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  td {
+    font-size: 13px;
+  }
+  table {
+    border: 0;
+  }
+  .ui-slider-horizontal {
+    height: 7px;
+    .ui-slider-handle {
+      height: 15px;
+      width: 15px;
+      margin-left: 0;
+      border-radius: 50%;
+    }
+  }
+
+  .ui-timepicker-div {
+    >dl {
+      text-align: center;
+    }
+  }
+
+}
+
+.thim-sc-reservations {
+  .booktable-wrapper {
+    input[type="text"],
+    input[type="tel"],
+    .dk-select,
+    input[type="email"]{
+      width: 100%;
+      outline: 0;
+      box-shadow: none;
+      border: 1px solid #aaa;
+      padding: 10px;
+      background-color: #fff;
+      color: #bbb;
+      @include rounded(5px);
+    }
+    input[type="submit"] {
+      color: #fff !important;
+    }
+    input {
+      &::-webkit-input-placeholder {
+        color: #bbb;
+      }
+      &:-moz-placeholder {
+        color: #bbb;
+      }
+      &::-moz-placeholder {
+        color: #bbb;
+      }
+      &:-ms-input-placeholder {
+        color: #bbb;
+      }
+    }
+
+    .dk-select {
+      padding: 8px 10px !important;
+      background-color: #fff;
+      .dk-selected,
+      .dk-option  {
+        color: #bbb;
+      }
+
+      .dk-option-selected,
+      .dk-option-highlight {
+        color: #fff;
+      }
+
+      &.dk-select-open-down {
+        .dk-selected {
+          &:before {
+            content: "\f106";
+          }
+        }
+      }
+
+      .dk-selected {
+        padding: 0;
+        border: none !important;
+        &:after {
+          display: none;
+        }
+        &:before {
+          font-family: FontAwesome;
+          content: "\f107";
+          bottom: 0;
+          line-height: 2px;
+          border: none;
+          margin: 0;
+          color: #bbb;
+        }
+      }
+      .dk-select-options {
+        max-height: 9em;
+        border: none !important;
+        left: 0;
+        padding: 0;
+        right: 0;
+        margin-top: 1px;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+        &::-webkit-scrollbar-track {
+          -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+          border-radius: 4px;
+        }
+        &::-webkit-scrollbar-thumb {
+          border-radius: 4px;
+          -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+        }
+        li {
+          padding: 5px 10px;
+          margin: 2px 0;
+          &:first-child {
+            margin-top: 0;
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+    select {
+      display: none !important;
+    }
+    label {
+      font-weight: 400;
+    }
+
+    .with-icon {
+      position: relative;
+      i {
+        position: absolute;
+        top: 0;
+        right: 27px;
+        line-height: 40px;
+        z-index: 0;
+        font-size: 15px;
+        color: #bbb;
+      }
+    }
+    .booktable-submit {
+      margin-top: 30px;
+    }
+  }
+}

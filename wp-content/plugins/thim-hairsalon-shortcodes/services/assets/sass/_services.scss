@@ -1,0 +1,66 @@
+.thim-sc-services {
+	padding: 8px;
+	position: relative;
+	overflow: hidden;
+	.background {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		div {
+			height: 100%;
+			background-size: cover;
+		}
+	}
+	&.flexbox {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.box-content {
+			width: 348px;
+			height: auto;
+		}
+	}
+	.box-content {
+		position: relative;
+		z-index: 2;
+		background-color: #FFF;
+		width: 100%;
+		padding: 28px;
+		height: 100%;
+		border-style: solid;
+		h3 {
+			text-align: center;
+			font-size: 24px;
+			margin: 0;
+			line-height: 80px;
+			&:after {
+				content: '';
+				border-bottom: 1px solid #ccc;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				display: block;
+				width: 50px;
+				margin: auto;
+			}
+		}
+		ul {
+			margin: 0 auto;
+			text-align: left;
+			max-width: 185px;
+			margin-top: 37px;
+			margin-bottom: 17px;
+			li {
+				list-style: none;
+				line-height: 40px;
+				.price {
+					float: right;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}

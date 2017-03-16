@@ -1,0 +1,52 @@
+.thim-sc-video {
+
+  .image {
+    position: relative;
+    img {
+      width: 100%;
+      @include transition(all 1s);
+    }
+  }
+  .video-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    @include translate(0, -50%);
+
+    h3 {
+      margin-top: 0;
+      font-weight: 400;
+    }
+    p {
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    .toggle-video {
+      display: inline-block;
+      left: 0;
+      width: 60px;
+      height: 60px;
+      color: #fff;
+      line-height: 54px;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 50%;
+      font-size: 26px;
+      padding-left: 8px;
+      &:before {
+        content: "\f0da";
+        font-family: FontAwesome;
+        font-size: 50px;
+      }
+      &:hover {
+        &:before {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

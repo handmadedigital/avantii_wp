@@ -1,0 +1,85 @@
+.thim-getting-started {
+	header {
+		.tc-controls {
+			display: inline-block;
+			margin: 0 0 2em;
+
+			li {
+				float: left;
+			}
+
+			.step {
+				display: inline-block;
+				width: 70px;
+				height: 8px;
+				background-color: #cccccc;
+				margin: 0;
+				outline: none;
+				//cursor: pointer;
+
+				&:hover {
+					//background-color: #005d7f !important;
+				}
+
+				&.active {
+					background-color: #0085ba;
+				}
+			}
+		}
+
+		#skip-step {
+			float: right;
+			padding-right: 1em;
+		}
+	}
+
+	main {
+		border: 1px solid #e5e5e5;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+
+		.tc-step {
+			display: none;
+			background-color: #fff;
+
+			.top {
+				padding: 2em;
+				min-height: 200px;
+			}
+
+			h2 {
+				margin: 0 0 2em;
+			}
+
+			form {
+				.form-group {
+					margin-bottom: 1em;
+				}
+
+				label {
+					display: block;
+					font-weight: 600;
+					margin-bottom: 0.5em;
+				}
+			}
+
+			&.active {
+				display: block;
+			}
+		}
+
+		.bottom {
+			background-color: #f5f5f5;
+			padding: 1em;
+
+			&:after {
+				content: '';
+				clear: both;;
+				display: table;
+			}
+		}
+
+		.tc-run-step {
+			float: right;
+		}
+	}
+}

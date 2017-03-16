@@ -1,0 +1,2763 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: HairSalon\n"
+"POT-Creation-Date: 2016-10-20 11:12+0700\n"
+"PO-Revision-Date: 2016-10-20 11:12+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:13
+msgid "Dude, that page can't be found. You better go "
+msgstr ""
+
+#: 404.php:14 inc/custom-functions.php:249
+msgid "Home"
+msgstr ""
+
+#: comments.php:27 inc/admin/customizer-sections/blog-general.php:89
+msgid "Comments"
+msgstr ""
+
+#: comments.php:32 comments.php:44
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33 comments.php:45
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:34 comments.php:46
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:51
+msgid "No comments yet! You be the first to comment."
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:60
+msgid "Comment*"
+msgstr ""
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:58
+msgid "Copyright Menu"
+msgstr ""
+
+#: functions.php:119 functions.php:121
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:130
+msgid "Top bar Left"
+msgstr ""
+
+#: functions.php:132
+msgid "Display in top bar left."
+msgstr ""
+
+#: functions.php:139
+msgid "Top bar Right"
+msgstr ""
+
+#: functions.php:141
+msgid "Display in top bar right."
+msgstr ""
+
+#: functions.php:150
+msgid "Menu Right"
+msgstr ""
+
+#: functions.php:152
+msgid "Display widgets in right of primary menu."
+msgstr ""
+
+#: functions.php:161 functions.php:163
+msgid "Sidebar Shop"
+msgstr ""
+
+#: functions.php:172 functions.php:174
+msgid "Footer Banner"
+msgstr ""
+
+#: functions.php:183
+msgid "Sticky Footer"
+msgstr ""
+
+#: functions.php:185
+msgid "Display in sticky sidebar."
+msgstr ""
+
+#: functions.php:196
+#, php-format
+msgid "Footer Sidebar %s"
+msgstr ""
+
+#: functions.php:198
+msgid "Sidebar display widgets."
+msgstr ""
+
+#: functions.php:217
+msgid "Widget was created by the user."
+msgstr ""
+
+#: inc/admin/customizer-options.php:35
+#: inc/admin/customizer-sections/general-logo.php:13
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:12
+#: inc/admin/customizer-sections/footer-options.php:11
+#: inc/admin/customizer-sections/page-title.php:12
+#: inc/admin/customizer-sections/woocommerce-settings.php:12
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:25
+msgid "Archive Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:31
+msgid "Blog Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:32
+msgid "Choose a layout to display for archive post."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:37
+msgid "Masonry"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:38
+msgid "Grid"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:45
+msgid "Blog Columns"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:46
+msgid "Choose the number of columns for archive post."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:51
+#: inc/admin/customizer-sections/woocommerce-settings.php:48
+msgid "2"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:52
+#: inc/admin/customizer-sections/woocommerce-settings.php:49
+#: inc/admin/customizer-sections/woocommerce-settings.php:67
+msgid "3"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:53
+#: inc/admin/customizer-sections/woocommerce-settings.php:50
+#: inc/admin/customizer-sections/woocommerce-settings.php:68
+msgid "4"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:60
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:61
+msgid ""
+"Choose the number of words you want to cut from the content to be the "
+"excerpt of search and archive"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:83
+msgid "Single Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:90
+msgid "Turn on to display comments."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:94
+#: inc/admin/customizer-sections/blog-general.php:107
+#: inc/admin/customizer-sections/footer-copyright.php:28
+#: inc/admin/customizer-sections/footer-options.php:27
+#: inc/admin/customizer-sections/footer-options.php:44
+#: inc/admin/customizer-sections/general-features.php:27
+#: inc/admin/customizer-sections/general-features.php:44
+#: inc/admin/customizer-sections/general-features.php:63
+#: inc/admin/customizer-sections/general-features.php:82
+#: inc/admin/customizer-sections/general-features.php:99
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:210
+#: inc/admin/customizer-sections/header-sticky-menu.php:28
+#: inc/admin/customizer-sections/header-topbar.php:26
+#: inc/admin/customizer-sections/header-topbar.php:43
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:28
+#: inc/admin/customizer-sections/page-title.php:28
+#: inc/admin/customizer-sections/page-title.php:45
+#: inc/admin/customizer-sections/responsive.php:27
+#: inc/admin/customizer-sections/woocommerce-settings.php:84
+msgid "On"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:95
+#: inc/admin/customizer-sections/blog-general.php:108
+#: inc/admin/customizer-sections/footer-copyright.php:29
+#: inc/admin/customizer-sections/footer-options.php:28
+#: inc/admin/customizer-sections/footer-options.php:45
+#: inc/admin/customizer-sections/general-features.php:28
+#: inc/admin/customizer-sections/general-features.php:45
+#: inc/admin/customizer-sections/general-features.php:64
+#: inc/admin/customizer-sections/general-features.php:83
+#: inc/admin/customizer-sections/general-features.php:100
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:211
+#: inc/admin/customizer-sections/header-sticky-menu.php:29
+#: inc/admin/customizer-sections/header-topbar.php:27
+#: inc/admin/customizer-sections/header-topbar.php:44
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:29
+#: inc/admin/customizer-sections/page-title.php:29
+#: inc/admin/customizer-sections/page-title.php:46
+#: inc/admin/customizer-sections/responsive.php:28
+#: inc/admin/customizer-sections/woocommerce-settings.php:85
+msgid "Off"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:102
+msgid "Related Posts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:103
+msgid "Turn on to display related posts."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:115
+msgid "Numbers of Related Post"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:135
+msgid "Columns of Related Post"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:12
+#: inc/admin/customizer-sections/general-layouts.php:12
+#: inc/admin/customizer-sections/header-layouts.php:11
+#: inc/admin/customizer-sections/woocommerce-layouts.php:12
+msgid "Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:24
+msgid "Blog Archive Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:25
+msgid ""
+"Allows you to choose a layout to display for all blog archive, blog category "
+"page on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:42
+msgid "Sidebar Left For Blog Archive Layout "
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:43
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on Blog archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:64
+msgid "Sidebar Right For Blog Archive Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:65
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on Archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:88
+msgid "Blog Single Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:89
+msgid ""
+"Allows you to choose a layout to display for only blog single page on your "
+"site."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:106
+#: inc/admin/customizer-sections/general-layouts.php:123
+#: inc/admin/customizer-sections/woocommerce-layouts.php:100
+msgid "Sidebar Left For Post Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:107
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on Post layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:127
+#: inc/admin/customizer-sections/general-layouts.php:144
+#: inc/admin/customizer-sections/woocommerce-layouts.php:121
+msgid "Sidebar Right For Post Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:128
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on Post layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:12
+msgid "Meta Tags"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:22
+msgid "Show Author"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:23
+msgid "Allows you to show author meta tags to display at all blog page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:28
+#: inc/admin/customizer-sections/blog-meta.php:45
+#: inc/admin/customizer-sections/blog-meta.php:62
+#: inc/admin/customizer-sections/blog-meta.php:79
+#: inc/admin/customizer-sections/blog-meta.php:96
+msgid "Show"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:29
+#: inc/admin/customizer-sections/blog-meta.php:46
+#: inc/admin/customizer-sections/blog-meta.php:63
+#: inc/admin/customizer-sections/blog-meta.php:80
+#: inc/admin/customizer-sections/blog-meta.php:97
+msgid "Hide"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:39
+msgid "Show Date"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:40
+msgid "Allows you to show date meta tags to display at all blog page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:56
+msgid "Show Category"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:57
+msgid "Allows you to show category meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:73
+msgid "Show Tags"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:74
+msgid "Allows you to show tags meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:90
+msgid "Show Comment Number"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:91
+msgid "Allows you to show comment meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:12
+msgid "Social Share"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:22
+msgid "Sortable Buttons Sharing"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:23
+msgid ""
+"Click on eye icons to show or hide buttons. Use drag and drop to change the "
+"position of social share icons.."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:34
+msgid "Facebook"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:35
+#: shortcodes/social-link/tpl/default.php:50
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:36 inc/template-tags.php:206
+#: shortcodes/social-link/tpl/default.php:56
+msgid "Pinterest"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:37
+msgid "Google Plus"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:38
+msgid "Fancy"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog.php:12
+msgid "Blog"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:11
+msgid "Copyright"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:22
+msgid "Show Copyright Text"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:23
+msgid "Turn on to display the copyright bar."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:39
+#: inc/admin/customizer-sections/footer-options.php:80
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:34
+#: inc/admin/customizer-sections/general-styling.php:99
+#: inc/admin/customizer-sections/header-layouts.php:58
+#: inc/admin/customizer-sections/header-sticky-menu.php:57
+#: inc/admin/customizer-sections/header-sub-menu.php:22
+#: inc/admin/customizer-sections/header-topbar.php:96
+#: inc/admin/customizer-sections/page-title.php:76
+#: inc/admin/customizer-sections/responsive.php:80
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:40
+msgid "Allows you to choose background color for your copyright area. "
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:61
+#: inc/admin/customizer-sections/footer-options.php:101
+msgid "Colors"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:65
+#: inc/admin/customizer-sections/footer-options.php:106
+msgid "Text"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:66
+#: inc/admin/customizer-sections/footer-options.php:107
+msgid "Link"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:67
+#: inc/admin/customizer-sections/footer-options.php:108
+msgid "Hover"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:102
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:103
+msgid ""
+"Enter the text that displays in the copyright bar. HTML markup can be used."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:21
+msgid "Show Sticky Sidebar"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:22
+msgid "Turn on to display footer sticky sidebar."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:38
+msgid "Show Footer Widgets"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:39
+msgid "Turn on to display footer widgets."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:55
+msgid "Sidebar Number"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:56
+msgid "Controls the number of columns in the footer."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:105
+#: inc/admin/customizer-sections/page-title-syling.php:12
+#: shortcodes/icon-box/icon-box.php:30 shortcodes/textbox/textbox.php:29
+#: shortcodes/video/video.php:22
+msgid "Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer.php:12
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-custom-css.php:12
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-custom-css.php:20
+msgid ""
+"Just want to do some quick CSS changes? Enter theme here, they will be "
+"applied to the theme."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:13
+msgid "Extra Features"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:22
+msgid "RTL Support"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:38
+msgid "Smooth Scrolling"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:39
+msgid "Turn on to enable smooth scrolling."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:57
+msgid "Open Graph Meta Tags"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:58
+msgid ""
+"Turn on to enable open graph meta tags which is mainly used when sharing "
+"pages on social networking sites like Facebook."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:76
+msgid "Back To Top"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:77
+msgid ""
+"Turn on to enable the Back To Top script which adds the scrolling to top "
+"functionality."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:93
+msgid "Google Theme"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:94
+msgid "Turn on to set the toolbar color in Chrome for Android."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:110
+msgid "Google Theme Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:130
+msgid "Preloading"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:154
+msgid "Preloading Custom Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:170
+msgid "Preloading Style"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:174
+msgid "Background color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:175
+#: shortcodes/icon-box/icon-box.php:411
+msgid "Icon color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:24
+msgid "Site Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:25
+msgid "Allows you to choose a layout to display for all contents on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:43
+#: inc/admin/customizer-sections/woocommerce-layouts.php:22
+msgid "Archive Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:44
+msgid ""
+"Allows you to choose a layout to display for all archive pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:61
+#: inc/admin/customizer-sections/woocommerce-layouts.php:40
+msgid "Sidebar Left For Archive Layout "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:62
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on archive layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:82
+#: inc/admin/customizer-sections/woocommerce-layouts.php:61
+msgid "Sidebar Right For Archive Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:83
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on archive layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:105
+#: inc/admin/customizer-sections/woocommerce-layouts.php:82
+msgid "Single Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:106
+msgid "Allows you to choose a layout to display for single pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:124
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on single layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:145
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on single layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:167
+msgid "Page Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:168
+msgid "Allows you to choose a layout to display for all pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:185
+msgid "Sidebar Left For Page Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:186
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on page layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:206
+msgid "Sidebar Right For Page Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:207
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on page layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:14
+msgid "Allows you to add, remove, change logo on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:26
+msgid "Sticky Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:27
+msgid "Allows you to add, remove, change sticky logo on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:39
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:40
+msgid ""
+"Select an image file for the retina version of the logo. It should be "
+"exactly 2x the size of the logo."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:50
+msgid "Logo width"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:51
+msgid ""
+"Allows you to assign a value for logo width. Example: 10px, 3em, 48%, 90vh "
+"etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:16
+msgid "Boxed Background"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:21
+#: inc/admin/customizer-sections/general-styling.php:85
+msgid "Select Background Type"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:22
+msgid ""
+"Allows you to select a background for body content when you selected box "
+"layout in General Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:26
+#: inc/admin/customizer-sections/general-styling.php:90
+msgid "Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:27
+#: inc/admin/customizer-sections/general-styling.php:91
+msgid "Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:28
+#: inc/admin/customizer-sections/general-styling.php:92
+msgid "Pattern"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:57
+#: inc/admin/customizer-sections/general-styling.php:122
+msgid "Background image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:78
+#: inc/admin/customizer-sections/general-styling.php:143
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:82
+#: inc/admin/customizer-sections/general-styling.php:147
+msgid "Tile"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:83
+#: inc/admin/customizer-sections/general-styling.php:148
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:84
+#: inc/admin/customizer-sections/general-styling.php:149
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:85
+#: inc/admin/customizer-sections/general-styling.php:150
+msgid "No Repeat"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:106
+#: inc/admin/customizer-sections/general-styling.php:171
+msgid "Background Position"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:110
+#: inc/admin/customizer-sections/general-styling.php:175
+#: inc/admin/customizer-sections/responsive.php:66
+msgid "Left"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:111
+#: inc/admin/customizer-sections/general-styling.php:176
+msgid "Center"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:112
+#: inc/admin/customizer-sections/general-styling.php:177
+#: inc/admin/customizer-sections/responsive.php:67
+msgid "Right"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:133
+#: inc/admin/customizer-sections/general-styling.php:198
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:137
+#: inc/admin/customizer-sections/general-styling.php:202
+msgid "Scroll"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:138
+#: inc/admin/customizer-sections/general-styling.php:203
+msgid "Fixed"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:159
+#: inc/admin/customizer-sections/general-styling.php:224
+msgid "Select a Background Pattern"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:205
+msgid "Boxed Layouts Box Shadow"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:206
+msgid ""
+"Allows you to enable or disable box shadow at body tag when you selected "
+"boxed layout. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:12
+msgid "Styling"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:22
+msgid "Primary Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:23
+msgid "Allows you to choose a primary color for your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:80
+msgid "Main Content Background"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:86
+msgid "Allows you to select a background for body tag content on your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:16
+msgid "Headings"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:20
+msgid "Heading Font-Family"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:21
+msgid "Allows you to select font-family for headings (h1, h2, h3, h4, h5, h6)"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:57
+msgid "Heading 1"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:58
+msgid "Allows you to select all font properties of H1 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:88
+msgid "Heading 2"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:89
+msgid "Allows you to select all font properties of H2 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:119
+msgid "Heading 3"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:120
+msgid "Allows you to select all font properties of H3 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:150
+msgid "Heading 4"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:151
+msgid "Allows you to select all font properties of H4 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:181
+msgid "Heading 5"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:182
+msgid "Allows you to select all font properties of H5 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:212
+msgid "Heading 6"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:213
+msgid "Allows you to select all font properties of H6 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:13
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:25
+msgid "Body"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:29
+#: inc/admin/customizer-sections/header-main-menu.php:29
+msgid "Body Font"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:30
+msgid "Allows you to select all font properties of body tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general.php:12
+msgid "General"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:22
+msgid "Header Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:23
+msgid "Allows you to select header layout for header on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:40
+msgid "Header Positions"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:41
+msgid "Allows you to select layout position for header layout. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:47
+#: shortcodes/counter-box/counter-box.php:61
+#: shortcodes/google-map/google-map.php:131 shortcodes/heading/heading.php:33
+#: shortcodes/heading/heading.php:180 shortcodes/icon-box/icon-box.php:44
+#: shortcodes/icon-box/icon-box.php:149 shortcodes/services/services.php:94
+#: woocommerce/woocommerce.php:67
+msgid "Default"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:48
+msgid "Overlay"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:59
+msgid "Allows you to choose background color for your header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:11
+msgid "Main Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:22
+msgid "Font Family"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:23
+msgid "Allows you to select font title or body. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:30
+msgid "Title Font"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:40
+msgid "Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:41
+msgid "Allows you to select all font font properties for header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:93
+msgid "Text Color Hover"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:94
+msgid "Allows you to select color for text link when hover text link . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:11
+msgid "Sticky Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:22
+msgid "Sticky On Scroll"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:23
+msgid "Allows you to show or hide header sticky menu on your site . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:39
+msgid "Select style"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:40
+msgid "Allows you to select sticky menu style for your header . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:46
+msgid "The same with main menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:47
+#: shortcodes/counter-box/counter-box.php:62 shortcodes/heading/heading.php:34
+#: shortcodes/heading/heading.php:181 shortcodes/icon-box/icon-box.php:45
+#: shortcodes/icon-box/icon-box.php:150
+msgid "Custom"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:58
+msgid "Choose a background color for sticky menu on the header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:86
+#: inc/admin/customizer-sections/header-sub-menu.php:44
+#: inc/admin/customizer-sections/responsive.php:105
+msgid "Text Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:87
+msgid "Choose a text color for sticky menu on the header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:116
+#: inc/admin/customizer-sections/header-sub-menu.php:67
+#: inc/admin/customizer-sections/responsive.php:131
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:117
+msgid ""
+"Choose a link color when users hover over text link on sticky menu on the "
+"header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:11
+msgid "Sub Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:23
+msgid "Choose a background color for sub menu on the header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:45
+msgid "Choose a text color for sub menu on the header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:68
+msgid ""
+"Choose a link color when users hover over text link on sub menu on the "
+"header."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:9
+msgid "Top bar"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:20
+msgid "Show Topbar"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:21
+msgid "Allows you to enable or disable Top bar."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:37
+msgid "Show Line After Topbar"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:38
+msgid "Allows you to show or hide line between topbar and main menu."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:53
+msgid "Topbar Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:54
+msgid "Allows you to select font properties for topbar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-topbar.php:97
+msgid "Allows you to choose a background color for widget on topbar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header.php:13
+msgid "Header"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-bar.php:11
+msgid "Page Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:12
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:22
+msgid "Hide Breadcrumb"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:23
+msgid "Allows you to HIDE breadcrumb on page title bar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:41
+msgid "Breadcrumb Icon"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:53
+msgid "Breadcrumb Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:54
+msgid "Allows you to select font properties for breadcrumb. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-syling.php:22
+msgid "Fonts Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-syling.php:23
+msgid "Allows you to select font properties for page title. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:22
+msgid "Show Page Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:23
+msgid "Allows you to enable or disable page title on heading top. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:39
+msgid "Hide Page Title Contents"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:40
+msgid "Allows you to HIDE page title content on page title bar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:56
+msgid "Upload Background Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:57
+msgid "Upload an image for the background image of the page title."
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:77
+msgid ""
+"If you do not use background image, then can use background color for page "
+"title on heading top. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:98
+#: shortcodes/google-map/google-map.php:50
+msgid "Height"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:99
+msgid ""
+"Assign a value for page title height. Example: 100px, 30em, 48%, 90vh etc.."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:11
+#: inc/admin/customizer-sections/responsive.php:21
+msgid "Responsive"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:22
+msgid "Turn on to enable responsive on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:39
+msgid "Mobile Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:40
+msgid "Allows you to add, remove, change mobile logo on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:54
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:59
+msgid "Position"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:60
+msgid ""
+"Allows you to select a mobile menu effect position for header on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:81
+msgid ""
+"Allows you to select a color make background color for header on mobile. "
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:106
+msgid "Allows you to select a color make color of header text on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:132
+msgid ""
+"Allows you to select color for text link when hover text link on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:163
+msgid "Icon Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:164
+msgid "Allows you to select a color make color of mobile menu icon."
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:11
+msgid "Sidebars"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:21
+msgid "Sidebar Title Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:22
+msgid "Allows you to select font properties for sidebars title. "
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:50
+msgid "Widget Background Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:51
+msgid "Allows you to choose a background color for widget on sidebar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:72
+msgid "Widget Margin Bottom"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:73
+msgid ""
+"Choose the number of words you want to space between widgets on sidebars. "
+"Example: 10px, 3em, 48%, 90vh etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-layouts.php:23
+msgid ""
+"Allows you to choose a layout to display for all woocommerce archive page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-layouts.php:41
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on product archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-layouts.php:62
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on product archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-layouts.php:83
+msgid ""
+"Allows you to choose a layout to display for only product single page on "
+"your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-layouts.php:101
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on product single page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-layouts.php:122
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on product single page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:22
+msgid "Number Of Products Per Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:23
+msgid "Allows you to select a number to display product per archive page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:41
+msgid "Grid Columns"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:42
+msgid ""
+"Allows you to select a number make columns to display product per archive "
+"page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:60
+msgid "Related Product Numbers"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:61
+msgid ""
+"Allows you to select a number make numbers to display related for single "
+"page."
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:78
+msgid "Show QuickView"
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce-settings.php:79
+msgid "Allows you to enable or disable quickview in shop page. "
+msgstr ""
+
+#: inc/admin/customizer-sections/woocommerce.php:11
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/require-thim-core.php:52
+msgid "Install and active ThimPress Core to start now!"
+msgstr ""
+
+#: inc/custom-functions.php:166
+msgid "Year"
+msgstr ""
+
+#: inc/custom-functions.php:168
+msgid "Month"
+msgstr ""
+
+#: inc/custom-functions.php:170
+msgid "Day"
+msgstr ""
+
+#: inc/custom-functions.php:221 inc/custom-functions.php:269
+#: inc/custom-functions.php:271 inc/custom-functions.php:273
+#: inc/custom-functions.php:277 inc/custom-functions.php:278
+#: inc/template-tags.php:531
+msgid "Archives"
+msgstr ""
+
+#: inc/custom-functions.php:223
+msgid "Author"
+msgstr ""
+
+#: inc/custom-functions.php:225
+msgid "Page"
+msgstr ""
+
+#: inc/custom-functions.php:227
+msgid "Search results for:"
+msgstr ""
+
+#: inc/custom-functions.php:229 inc/template-tags.php:527
+msgid "404 Page"
+msgstr ""
+
+#: inc/custom-functions.php:295
+msgid "-- Select Sidebar --"
+msgstr ""
+
+#: inc/data/demos.php:5
+msgid "Demo 01"
+msgstr ""
+
+#: inc/data/demos.php:20
+msgid "Demo 02"
+msgstr ""
+
+#: inc/data/demos.php:35
+msgid "Demo 03"
+msgstr ""
+
+#: inc/libs/class-widget-attributes.php:37
+msgid "Extra Class"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "by "
+msgstr ""
+
+#: inc/template-tags.php:70
+msgid "Categories: "
+msgstr ""
+
+#: inc/template-tags.php:97
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "Tag: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:156
+msgid "Click to show"
+msgstr ""
+
+#: inc/template-tags.php:156
+msgid "share item"
+msgstr ""
+
+#: inc/template-tags.php:342
+msgid "Name"
+msgstr ""
+
+#: inc/template-tags.php:343
+msgid "Email"
+msgstr ""
+
+#: inc/template-tags.php:344
+msgid "Website"
+msgstr ""
+
+#: inc/template-tags.php:381
+msgid " at "
+msgstr ""
+
+#: inc/template-tags.php:390
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:394
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:491 inc/template-tags.php:493
+#: inc/template-tags.php:495 inc/template-tags.php:521
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:497
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:497
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:499
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:499
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:501
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:501
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:503
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:505
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:507
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:509
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:511
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:513
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:515
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:517
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:519
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:525
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:529
+msgid "Search Results Page"
+msgstr ""
+
+#: searchform.php:6
+msgid "Search..."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:18
+msgid "Thim Counter Box"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:21
+#: shortcodes/google-map/google-map.php:23 shortcodes/heading/heading.php:15
+#: shortcodes/icon-box/icon-box.php:21 shortcodes/our-team/our-team.php:20
+#: shortcodes/posts/posts.php:22 shortcodes/services/services.php:22
+#: shortcodes/social-link/social-link.php:26
+#: shortcodes/testimonials/testimonials.php:20
+#: shortcodes/textbox/textbox.php:22 shortcodes/video/video.php:15
+msgid "Thim Shortcodes"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:22
+msgid "Display counter box."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:38
+#: shortcodes/our-team/our-team.php:27
+msgid "Number"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:40
+msgid "Enter number in box to count."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:45
+msgid "Label"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:49
+msgid "Label counter box."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:58
+msgid "Use custom or default style?"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:64
+msgid "If you select default you will use default style which same as demo."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:69
+msgid "Font size of number "
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:74
+msgid "Select font size of number."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:83
+msgid "Width of number "
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:88
+msgid "Select width of number."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:98
+msgid "Height of number "
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:103
+msgid "Select height of number."
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:112
+msgid "Number color"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:115
+msgid "Select the number color"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:124
+msgid "Label color"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:127
+msgid "Select the label color"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:136
+msgid "Border color"
+msgstr ""
+
+#: shortcodes/counter-box/counter-box.php:139
+msgid "Select the border color"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:21
+msgid "Thim Google Map"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:24
+msgid "Display Google map."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:31
+msgid "Map center"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:34
+msgid "Boston, United States"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:35
+msgid ""
+"The name of a place, town, city, or even a country. Can be an exact address "
+"too."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:42
+msgid "Google Map API Key"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:55
+msgid "Height of the map."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:62
+msgid "Zoom level"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:67
+msgid "A value from 0 (the world) to 21 (street level)."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:73
+msgid "Marker"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:75
+msgid "Show marker at map center."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:81
+msgid "Choose marker icon"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:85
+msgid "Replaces the default map marker with your own image."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:92
+msgid "Scroll to zoom"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:94
+msgid "Allow scrolling over the map to zoom in or out."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:100
+msgid "Draggable"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:102
+msgid "Allow dragging the map to move it around."
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:108
+msgid "Use Cover"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:110
+msgid "Show image cover before load google map. (optimzie speed load page)"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:117
+msgid "Choose cover image"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:128
+msgid "Map Style"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:132
+msgid "Ultra Light with Labels"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:140 shortcodes/heading/heading.php:329
+#: shortcodes/icon-box/icon-box.php:453 shortcodes/our-team/our-team.php:73
+#: shortcodes/posts/posts.php:73 shortcodes/services/services.php:130
+#: shortcodes/testimonials/testimonials.php:106
+#: shortcodes/textbox/textbox.php:87 shortcodes/video/video.php:76
+msgid "Extra class"
+msgstr ""
+
+#: shortcodes/google-map/google-map.php:143 shortcodes/heading/heading.php:332
+#: shortcodes/icon-box/icon-box.php:456 shortcodes/our-team/our-team.php:76
+#: shortcodes/posts/posts.php:76 shortcodes/services/services.php:133
+#: shortcodes/testimonials/testimonials.php:109
+#: shortcodes/textbox/textbox.php:90 shortcodes/video/video.php:79
+msgid ""
+"Add extra class name that will be applied to the icon box, and you can use "
+"this class for your customizations."
+msgstr ""
+
+#: shortcodes/google-map/tpl/default.php:6
+msgid "Our Address"
+msgstr ""
+
+#: shortcodes/heading/heading.php:13
+msgid "Thim Heading"
+msgstr ""
+
+#: shortcodes/heading/heading.php:16
+msgid "Display heading."
+msgstr ""
+
+#: shortcodes/heading/heading.php:22
+msgid "Heading Primary"
+msgstr ""
+
+#: shortcodes/heading/heading.php:24 shortcodes/services/services.php:32
+msgid "Write the title for the heading."
+msgstr ""
+
+#: shortcodes/heading/heading.php:30
+msgid "Use custom or default heading primary?"
+msgstr ""
+
+#: shortcodes/heading/heading.php:36 shortcodes/icon-box/icon-box.php:47
+msgid ""
+"If you select default you will use default title which customized in "
+"typography."
+msgstr ""
+
+#: shortcodes/heading/heading.php:42
+msgid "Heading tag"
+msgstr ""
+
+#: shortcodes/heading/heading.php:51
+msgid "Choose heading element."
+msgstr ""
+
+#: shortcodes/heading/heading.php:61
+msgid "Heading primary color "
+msgstr ""
+
+#: shortcodes/heading/heading.php:64
+msgid "Select the heading primary color."
+msgstr ""
+
+#: shortcodes/heading/heading.php:74
+msgid "Heading size "
+msgstr ""
+
+#: shortcodes/heading/heading.php:79
+msgid "Select the heading size."
+msgstr ""
+
+#: shortcodes/heading/heading.php:89
+msgid "Heading primary weight "
+msgstr ""
+
+#: shortcodes/heading/heading.php:92 shortcodes/icon-box/icon-box.php:103
+msgid "Choose the title font weight"
+msgstr ""
+
+#: shortcodes/heading/heading.php:93 shortcodes/heading/heading.php:235
+#: shortcodes/icon-box/icon-box.php:104 shortcodes/icon-box/icon-box.php:191
+msgid "Normal"
+msgstr ""
+
+#: shortcodes/heading/heading.php:94 shortcodes/heading/heading.php:236
+#: shortcodes/icon-box/icon-box.php:105 shortcodes/icon-box/icon-box.php:192
+msgid "Bold"
+msgstr ""
+
+#: shortcodes/heading/heading.php:95 shortcodes/heading/heading.php:237
+#: shortcodes/icon-box/icon-box.php:106 shortcodes/icon-box/icon-box.php:193
+msgid "Bolder"
+msgstr ""
+
+#: shortcodes/heading/heading.php:96 shortcodes/heading/heading.php:238
+#: shortcodes/icon-box/icon-box.php:107 shortcodes/icon-box/icon-box.php:194
+msgid "Lighter"
+msgstr ""
+
+#: shortcodes/heading/heading.php:98
+msgid "Select the heading primary weight."
+msgstr ""
+
+#: shortcodes/heading/heading.php:108
+msgid "Heading primary style "
+msgstr ""
+
+#: shortcodes/heading/heading.php:111 shortcodes/icon-box/icon-box.php:122
+msgid "Choose the title font style"
+msgstr ""
+
+#: shortcodes/heading/heading.php:112 shortcodes/heading/heading.php:266
+#: shortcodes/icon-box/icon-box.php:123 shortcodes/icon-box/icon-box.php:210
+msgid "Italic"
+msgstr ""
+
+#: shortcodes/heading/heading.php:113 shortcodes/heading/heading.php:267
+#: shortcodes/icon-box/icon-box.php:124 shortcodes/icon-box/icon-box.php:211
+msgid "Oblique"
+msgstr ""
+
+#: shortcodes/heading/heading.php:114 shortcodes/heading/heading.php:268
+#: shortcodes/icon-box/icon-box.php:125 shortcodes/icon-box/icon-box.php:212
+msgid "Initial"
+msgstr ""
+
+#: shortcodes/heading/heading.php:115 shortcodes/heading/heading.php:269
+#: shortcodes/icon-box/icon-box.php:126 shortcodes/icon-box/icon-box.php:213
+msgid "Inherit"
+msgstr ""
+
+#: shortcodes/heading/heading.php:117
+msgid "Select the heading primary style."
+msgstr ""
+
+#: shortcodes/heading/heading.php:127
+msgid "Heading Secondary"
+msgstr ""
+
+#: shortcodes/heading/heading.php:129
+msgid "Write the title for the heading secondary."
+msgstr ""
+
+#: shortcodes/heading/heading.php:135
+msgid "Heading secondary color "
+msgstr ""
+
+#: shortcodes/heading/heading.php:138
+msgid "Select the heading secondary color."
+msgstr ""
+
+#: shortcodes/heading/heading.php:144
+msgid "Hide the icon?"
+msgstr ""
+
+#: shortcodes/heading/heading.php:147
+msgid "Tick it to hide the icon between title and description."
+msgstr ""
+
+#: shortcodes/heading/heading.php:154 shortcodes/textbox/textbox.php:56
+msgid "Use custom or default icon color?"
+msgstr ""
+
+#: shortcodes/heading/heading.php:157 shortcodes/textbox/textbox.php:59
+msgid "Gray"
+msgstr ""
+
+#: shortcodes/heading/heading.php:158 shortcodes/textbox/textbox.php:60
+msgid "White"
+msgstr ""
+
+#: shortcodes/heading/heading.php:164 shortcodes/textbox/textbox.php:63
+msgid "Allows you can select icon color for heading."
+msgstr ""
+
+#: shortcodes/heading/heading.php:169 shortcodes/icon-box/icon-box.php:138
+#: shortcodes/video/video.php:31
+msgid "Description"
+msgstr ""
+
+#: shortcodes/heading/heading.php:171 shortcodes/icon-box/icon-box.php:140
+msgid "Provide the description for this icon box."
+msgstr ""
+
+#: shortcodes/heading/heading.php:177 shortcodes/icon-box/icon-box.php:146
+msgid "Use custom or default description?"
+msgstr ""
+
+#: shortcodes/heading/heading.php:183 shortcodes/icon-box/icon-box.php:152
+msgid ""
+"If you select default you will use default description which customized in "
+"typography."
+msgstr ""
+
+#: shortcodes/heading/heading.php:190 shortcodes/icon-box/icon-box.php:159
+msgid "Description color "
+msgstr ""
+
+#: shortcodes/heading/heading.php:193 shortcodes/icon-box/icon-box.php:162
+msgid "Select the description color."
+msgstr ""
+
+#: shortcodes/heading/heading.php:203 shortcodes/icon-box/icon-box.php:172
+msgid "Description size "
+msgstr ""
+
+#: shortcodes/heading/heading.php:208 shortcodes/icon-box/icon-box.php:177
+msgid "Select the description size."
+msgstr ""
+
+#: shortcodes/heading/heading.php:218
+msgid "Description alignment"
+msgstr ""
+
+#: shortcodes/heading/heading.php:222
+msgid "Description at left"
+msgstr ""
+
+#: shortcodes/heading/heading.php:223
+msgid "Description at center"
+msgstr ""
+
+#: shortcodes/heading/heading.php:224
+msgid "Description at right"
+msgstr ""
+
+#: shortcodes/heading/heading.php:231 shortcodes/icon-box/icon-box.php:187
+msgid "Description weight "
+msgstr ""
+
+#: shortcodes/heading/heading.php:234 shortcodes/icon-box/icon-box.php:190
+msgid "Choose the description font weight"
+msgstr ""
+
+#: shortcodes/heading/heading.php:240 shortcodes/icon-box/icon-box.php:196
+msgid "Select the description weight."
+msgstr ""
+
+#: shortcodes/heading/heading.php:250
+msgid "Description padding "
+msgstr ""
+
+#: shortcodes/heading/heading.php:252
+msgid "Select the description padding."
+msgstr ""
+
+#: shortcodes/heading/heading.php:262 shortcodes/icon-box/icon-box.php:206
+msgid "Description style "
+msgstr ""
+
+#: shortcodes/heading/heading.php:265 shortcodes/icon-box/icon-box.php:209
+msgid "Choose the description font style"
+msgstr ""
+
+#: shortcodes/heading/heading.php:271 shortcodes/icon-box/icon-box.php:215
+msgid "Select the description style."
+msgstr ""
+
+#: shortcodes/heading/heading.php:282
+msgid "Button text link"
+msgstr ""
+
+#: shortcodes/heading/heading.php:284
+msgid "Write text link for the button."
+msgstr ""
+
+#: shortcodes/heading/heading.php:291
+msgid "Button text"
+msgstr ""
+
+#: shortcodes/heading/heading.php:293
+msgid "Write text for the button."
+msgstr ""
+
+#: shortcodes/heading/heading.php:300
+msgid "Shortcode alignment"
+msgstr ""
+
+#: shortcodes/heading/heading.php:304
+msgid "Shortcode at left"
+msgstr ""
+
+#: shortcodes/heading/heading.php:305
+msgid "Shortcode at center"
+msgstr ""
+
+#: shortcodes/heading/heading.php:306
+msgid "Shortcode at right"
+msgstr ""
+
+#: shortcodes/heading/heading.php:312 shortcodes/icon-box/icon-box.php:437
+#: shortcodes/our-team/our-team.php:56 shortcodes/posts/posts.php:55
+#: shortcodes/services/services.php:112
+#: shortcodes/testimonials/testimonials.php:89
+#: shortcodes/textbox/textbox.php:69 shortcodes/video/video.php:58
+msgid "Animation"
+msgstr ""
+
+#: shortcodes/heading/heading.php:316 shortcodes/icon-box/icon-box.php:440
+#: shortcodes/our-team/our-team.php:60 shortcodes/posts/posts.php:59
+#: shortcodes/services/services.php:116
+#: shortcodes/testimonials/testimonials.php:71
+#: shortcodes/testimonials/testimonials.php:93
+#: shortcodes/textbox/textbox.php:73 shortcodes/video/video.php:62
+msgid "No"
+msgstr ""
+
+#: shortcodes/heading/heading.php:317 shortcodes/icon-box/icon-box.php:441
+#: shortcodes/our-team/our-team.php:61 shortcodes/posts/posts.php:60
+#: shortcodes/services/services.php:117
+#: shortcodes/testimonials/testimonials.php:94
+#: shortcodes/textbox/textbox.php:74 shortcodes/video/video.php:63
+msgid "Top to bottom"
+msgstr ""
+
+#: shortcodes/heading/heading.php:318 shortcodes/icon-box/icon-box.php:442
+#: shortcodes/our-team/our-team.php:62 shortcodes/posts/posts.php:61
+#: shortcodes/services/services.php:118
+#: shortcodes/testimonials/testimonials.php:95
+#: shortcodes/textbox/textbox.php:75 shortcodes/video/video.php:64
+msgid "Bottom to top"
+msgstr ""
+
+#: shortcodes/heading/heading.php:319 shortcodes/icon-box/icon-box.php:443
+#: shortcodes/our-team/our-team.php:63 shortcodes/posts/posts.php:62
+#: shortcodes/services/services.php:119
+#: shortcodes/testimonials/testimonials.php:96
+#: shortcodes/textbox/textbox.php:76 shortcodes/video/video.php:65
+msgid "Left to right"
+msgstr ""
+
+#: shortcodes/heading/heading.php:320 shortcodes/icon-box/icon-box.php:444
+#: shortcodes/our-team/our-team.php:64 shortcodes/posts/posts.php:63
+#: shortcodes/services/services.php:120
+#: shortcodes/testimonials/testimonials.php:97
+#: shortcodes/textbox/textbox.php:77 shortcodes/video/video.php:66
+msgid "Right to left"
+msgstr ""
+
+#: shortcodes/heading/heading.php:321 shortcodes/icon-box/icon-box.php:445
+#: shortcodes/our-team/our-team.php:65 shortcodes/posts/posts.php:64
+#: shortcodes/services/services.php:121
+#: shortcodes/testimonials/testimonials.php:98
+#: shortcodes/textbox/textbox.php:78 shortcodes/video/video.php:67
+msgid "Appear from center"
+msgstr ""
+
+#: shortcodes/heading/heading.php:323 shortcodes/our-team/our-team.php:67
+#: shortcodes/posts/posts.php:66 shortcodes/services/services.php:123
+#: shortcodes/testimonials/testimonials.php:100
+#: shortcodes/textbox/textbox.php:80 shortcodes/video/video.php:69
+msgid ""
+"Select type of animation if you want this element to be animated when it "
+"enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:19
+msgid "Thim Icon Box"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:22
+msgid "Display icon box with image or icon."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:33 shortcodes/icon-box/tpl/default.php:15
+msgid "This is an icon box."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:34
+msgid "Provide the title for this icon box."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:41
+msgid "Use custom or default title?"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:53
+msgid "Heading element"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:62
+msgid "Choose heading type of the title."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:72
+msgid "Title color "
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:75
+msgid "Select the title color."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:85
+msgid "Title size "
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:90
+msgid "Select the title size."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:100
+msgid "Title weight "
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:109
+msgid "Select the title weight."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:119
+msgid "Title style "
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:128
+msgid "Select the title style."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:224
+msgid "Icon type"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:226
+msgid "Choose icon type"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:227
+msgid "Single Image"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:228
+msgid "Font Awesome"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:229
+msgid "Openiconic"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:230
+msgid "Typicons"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:231
+msgid "Entypo"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:232
+msgid "Linecons"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:236
+msgid "Select icon type."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:242
+msgid "Choose image"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:246
+msgid "Upload the custom image icon."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:255
+msgid "Image size"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:258
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:270 shortcodes/icon-box/icon-box.php:287
+#: shortcodes/icon-box/icon-box.php:305 shortcodes/icon-box/icon-box.php:323
+#: shortcodes/icon-box/icon-box.php:341
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:281
+msgid "FontAwesome library."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:299
+msgid "Openiconic library."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:317
+msgid "Typicons library."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:335
+msgid "Entypo library."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:353
+msgid "Linecons library."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:360
+msgid "Icon size"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:366
+msgid "Select the icon size."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:377
+msgid "Icon width"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:383
+msgid "Select the icon width."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:394
+msgid "Icon layout"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:397
+msgid "Icon at left"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:398
+msgid "Icon at right"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:399
+msgid "Icon at top center"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:401
+msgid "Select the icon layout."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:414
+msgid "Select the icon color."
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:424
+msgid "Text alignment"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:427
+msgid "Choose the text alignment"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:428
+msgid "Text at left"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:429
+msgid "Text at center"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:430
+msgid "Text at right"
+msgstr ""
+
+#: shortcodes/icon-box/icon-box.php:447
+msgid ""
+"Select animation type if you want this element to be animated when it enters "
+"into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: shortcodes/our-team/our-team.php:18
+msgid "Thim Our Team"
+msgstr ""
+
+#: shortcodes/our-team/our-team.php:21
+msgid "Display our team."
+msgstr ""
+
+#: shortcodes/our-team/our-team.php:32
+msgid "The number of staffs to show."
+msgstr ""
+
+#: shortcodes/our-team/our-team.php:38 shortcodes/posts/posts.php:37
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/our-team/our-team.php:43
+msgid "The number of columns per row to show."
+msgstr ""
+
+#: shortcodes/our-team/our-team.php:49
+msgid "Select category"
+msgstr ""
+
+#: shortcodes/our-team/tpl/default.php:28
+msgid "All"
+msgstr ""
+
+#: shortcodes/posts/posts.php:20
+msgid "Thim Posts"
+msgstr ""
+
+#: shortcodes/posts/posts.php:23
+msgid "Display posts"
+msgstr ""
+
+#: shortcodes/posts/posts.php:28 shortcodes/testimonials/testimonials.php:46
+msgid "Number posts"
+msgstr ""
+
+#: shortcodes/posts/posts.php:32
+msgid "Number posts to display."
+msgstr ""
+
+#: shortcodes/posts/posts.php:41
+msgid "Number columns"
+msgstr ""
+
+#: shortcodes/posts/posts.php:47
+msgid "Hide button Read more?"
+msgstr ""
+
+#: shortcodes/posts/posts.php:50
+msgid "Tick it to hide the icon after description."
+msgstr ""
+
+#: shortcodes/posts/tpl/default.php:79 templates/template-parts/content.php:41
+#: templates/template-parts/content.php:68
+#: templates/template-parts/content.php:82
+#: templates/template-parts/content.php:94
+#: templates/template-parts/content.php:111
+msgid "Read More"
+msgstr ""
+
+#: shortcodes/services/services.php:20
+msgid "Thim Services"
+msgstr ""
+
+#: shortcodes/services/services.php:23
+msgid "Display list of services."
+msgstr ""
+
+#: shortcodes/services/services.php:29
+msgid "Service Title"
+msgstr ""
+
+#: shortcodes/services/services.php:44
+msgid "Service name"
+msgstr ""
+
+#: shortcodes/services/services.php:50 woocommerce/cart/cart.php:32
+#: woocommerce/woocommerce.php:71
+msgid "Price"
+msgstr ""
+
+#: shortcodes/services/services.php:58
+#: shortcodes/testimonials/testimonials.php:80
+msgid "Background Image"
+msgstr ""
+
+#: shortcodes/services/services.php:62
+msgid "Use 1 image"
+msgstr ""
+
+#: shortcodes/services/services.php:63
+msgid "Use 2 images"
+msgstr ""
+
+#: shortcodes/services/services.php:70
+msgid "Background 1"
+msgstr ""
+
+#: shortcodes/services/services.php:80
+msgid "Background 2"
+msgstr ""
+
+#: shortcodes/services/services.php:90
+msgid "Box Style"
+msgstr ""
+
+#: shortcodes/services/services.php:95
+msgid "Flex box"
+msgstr ""
+
+#: shortcodes/services/services.php:102
+msgid "Border size"
+msgstr ""
+
+#: shortcodes/services/services.php:106
+msgid "Border size of box content."
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:21
+msgid "Thim Social Link"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:25
+msgid "Display social link."
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:31
+msgid "Style"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:35
+msgid "Style 01"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:36
+msgid "Style 02"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:37
+msgid "Style 03"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:44
+msgid "Icon Alignment"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:48
+msgid "Icons at left"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:49
+msgid "Icons at center"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:50
+msgid "Icons at right"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:55
+msgid "Link Facebook"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:61
+msgid "Link Twitter"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:67
+msgid "Link Skype"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:73
+msgid "Link Pinterest"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:78
+msgid "Link Google"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:83
+msgid "Link Dribble"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:88
+msgid "Link Linkedin"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:93
+msgid "Link Digg"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:98
+msgid "Link Youtube"
+msgstr ""
+
+#: shortcodes/social-link/social-link.php:103
+msgid "Link Instagram"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:47
+msgid "Facebooks"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:53
+msgid "Skype"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:59
+msgid "Google"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:62
+msgid "Dribble"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:65
+msgid "Linkedin"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:68
+msgid "Digg"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:71
+msgid "Youtube"
+msgstr ""
+
+#: shortcodes/social-link/tpl/default.php:74
+msgid "Instagram"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:18
+msgid "Thim Testimonials"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:21
+msgid "Display testimonials."
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:27
+msgid "Block Title"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:29
+msgid "Write the title for the block."
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:50
+msgid "Number posts display."
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:58
+msgid "Item Visible"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:67
+msgid "Mousewheel Scroll"
+msgstr ""
+
+#: shortcodes/testimonials/testimonials.php:72
+msgid "Yes"
+msgstr ""
+
+#: shortcodes/textbox/textbox.php:20
+msgid "Thim Textbox"
+msgstr ""
+
+#: shortcodes/textbox/textbox.php:23
+msgid "Display textbox"
+msgstr ""
+
+#: shortcodes/textbox/textbox.php:38
+msgid "Content"
+msgstr ""
+
+#: shortcodes/textbox/textbox.php:46
+msgid "Shortcode Background color"
+msgstr ""
+
+#: shortcodes/textbox/textbox.php:49
+msgid "Select a background color"
+msgstr ""
+
+#: shortcodes/video/video.php:13
+msgid "Thim Video"
+msgstr ""
+
+#: shortcodes/video/video.php:16
+msgid "Display Video"
+msgstr ""
+
+#: shortcodes/video/video.php:40
+msgid "Select cover image"
+msgstr ""
+
+#: shortcodes/video/video.php:49
+msgid "Video URL"
+msgstr ""
+
+#: shortcodes/video/video.php:52
+msgid "You can to copy a link from Youtube, Vimeo to display it on your site."
+msgstr ""
+
+#: templates/features/preloading/custom-image.php:9
+msgid "Loading..."
+msgstr ""
+
+#: templates/page-title/page-title.php:150
+msgid "Our Team"
+msgstr ""
+
+#: templates/page-title/page-title.php:154
+msgid "Testimonials"
+msgstr ""
+
+#: templates/template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/template-parts/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/template-parts/content-page.php:16
+#: templates/template-parts/content-single.php:39
+msgid "Pages:"
+msgstr ""
+
+#: templates/template-parts/related-posts.php:13
+msgid "Your Might Also Like"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:80
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:95
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:98
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:31
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:70
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:104
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:120
+msgid "Voucher Code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:121
+msgid "Enter Voucher Code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:122
+msgid "apply"
+msgstr ""
+
+#: woocommerce/cart/cart.php:129
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:152
+msgid "Continue Shopping"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:40
+msgid "Your purchase"
+msgstr ""
+
+#: woocommerce/content-single-product-lightbox.php:90
+msgid "View Detail"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:25
+msgid "Sort by:"
+msgstr ""
+
+#: woocommerce/single-product/related.php:53
+msgid "Related"
+msgstr ""
+
+#: woocommerce/single-product/related.php:55
+msgid "Products"
+msgstr ""
+
+#: woocommerce/widgets/class-wc-widget-cart.php:92
+msgid "Hide cart number"
+msgstr ""
+
+#: woocommerce/widgets/class-wc-widget-cart.php:97
+msgid "Hide if cart is empty"
+msgstr ""
+
+#: woocommerce/woocommerce.php:68
+msgid "Popularity"
+msgstr ""
+
+#: woocommerce/woocommerce.php:69
+msgid "Rating"
+msgstr ""
+
+#: woocommerce/woocommerce.php:70
+msgid "Newness"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "HairSalon"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://hairsalonwp.thimpress.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Hair Salon WordPress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThimPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://thimpress.com"
+msgstr ""

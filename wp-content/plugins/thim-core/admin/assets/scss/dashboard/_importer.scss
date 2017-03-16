@@ -1,0 +1,430 @@
+.tc-importer-wrapper {
+	.requirements {
+		background-color: #fff;
+		max-width: 40em;
+		margin-bottom: 2em;
+		padding: 2em;
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+
+		h3 {
+			margin: 0 0 1em;
+			font-size: 1.5em;
+			line-height: 1;
+			font-weight: 500;
+		}
+
+		table {
+			width: 100%;
+
+			.bold {
+				font-weight: 600;
+			}
+
+			th {
+				text-align: left;
+				font-weight: 600;
+			}
+
+			td {
+				line-height: 2;
+
+				&.qualified, &.unqualified {
+					&:after {
+						float: right;
+						padding-left: 1em;
+						font-family: 'icomoon';
+					}
+				}
+
+				&.qualified {
+					&:after {
+						color: #4caf50;
+						content: '\eb8a';
+					}
+				}
+
+				&.unqualified {
+					&:after {
+						color: #f44336;
+						content: '\eb9c';
+					}
+				}
+			}
+		}
+	}
+
+	.thim-demo {
+		position: relative;
+
+		.status {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 9;
+			background-color: #0085ba;
+			color: #fff;
+			padding: 0.8em 1.6em;
+			transition: all 300ms ease-out;
+
+			&:before {
+				content: attr(data-install);
+			}
+
+			&:hover {
+				cursor: pointer;
+				background-color: #EF5350;
+
+				&:before {
+					content: attr(data-text);
+				}
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1640px) {
+		.theme-browser {
+			.theme {
+				width: 30%;
+				margin: 0 3% 3% 0;
+			}
+		}
+	}
+}
+
+.tc-modal-importer {
+	&.importing {
+		.md-content {
+			.title {
+				position: relative;
+
+				&:before {
+					content: '';
+					border: 1px solid rgba(0, 0, 0, 0.1);
+					border-top: 1px solid #3498db;
+					border-radius: 50%;
+					width: 0.8em;
+					height: 0.8em;
+					animation: spinner 0.8s linear infinite;
+					position: absolute;
+					z-index: 2;
+					top: 0.6em;
+					left: 20px;
+				}
+			}
+		}
+
+		.main {
+			.options {
+				.package {
+					&:hover {
+						cursor: not-allowed;
+					}
+				}
+			}
+		}
+
+		#start-import {
+			&:before {
+				content: attr(data-importing);
+			}
+		}
+	}
+
+	&.completed {
+		#start-import {
+			&:before {
+				content: attr(data-completed);
+			}
+		}
+
+		.wrapper-finish {
+			opacity: 1;
+			display: block;
+			z-index: 99;
+		}
+	}
+
+	.title {
+		.demo-name {
+			&:before {
+				content: '\ec3c';
+				font-family: 'icomoon';
+				font-size: 0.6em;
+				padding-right: 0.4em;
+				position: relative;
+				top: -0.1em;
+			}
+		}
+	}
+
+	.main {
+		position: relative;
+		z-index: 0;
+
+		form {
+			margin: 0;
+		}
+
+		h4 {
+			font-size: 1.2em;
+			margin: 0;
+			line-height: 2;
+			padding: 1em 1em 1em 2em;
+			border-bottom: 1px solid #eee;
+		}
+
+		.plugins-required {
+			> span {
+				&[data-status="active"] {
+					font-weight: bold;
+				}
+
+				&[data-status="not_installed"] {
+					color: #999;
+				}
+			}
+		}
+
+		.options {
+			margin: 0;
+
+			.package {
+				margin: 0;
+				padding: 1em 1em 1em 5em;
+				border-bottom: 1px solid #eee;
+				position: relative;
+
+				.package-progress-bar {
+					display: block;
+					height: 100%;
+					position: absolute;
+					left: 0;
+					width: 0;
+					background: #bae0ec;
+					top: 0;
+					opacity: 0.5;
+					pointer-events: none;
+					transition: all 0.5s;
+				}
+
+				&:after {
+					content: '';
+					display: block;
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+					text-align: center;
+					font-size: 40px;
+					line-height: 86px;
+				}
+
+				&.disabled {
+					color: #aaa;
+				}
+
+				&[data-status="running"] {
+					label {
+						&:before {
+							opacity: 1;
+						}
+
+						input, &:after {
+							opacity: 0;
+						}
+					}
+					&:after {
+						//content: attr(data-percentage);
+					}
+				}
+
+				&[data-status="completed"] {
+					label {
+						&:after {
+							opacity: 1;
+						}
+
+						input, &:before {
+							opacity: 0;
+						}
+					}
+					&:after {
+						//content: attr(data-percentage);
+					}
+				}
+
+				&:hover {
+					background-color: #eee;
+					cursor: pointer;
+				}
+
+				label {
+					position: absolute;
+					top: 50%;
+					left: 2em;
+					transform: translateX(0) translateY(-50%);
+					width: 1em;
+					height: 1em;
+
+					&:before, &:after, input {
+						transition: all 0.3s ease-out;
+					}
+
+					&:before {
+						content: '';
+						border: 1px solid rgba(0, 0, 0, 0.1);
+						border-top: 1px solid #3498db;
+						border-radius: 50%;
+						width: 1em;
+						height: 1em;
+						animation: spinner 0.8s linear infinite;
+						top: 2px;
+						position: absolute;
+						z-index: 2;
+						opacity: 0;
+					}
+
+					&:after {
+						content: '\ec34';
+						font-family: 'icomoon';
+						font-size: 1em;
+						color: #4CAF50;
+						opacity: 0;
+						z-index: 1;
+					}
+
+					input {
+						top: 5px;
+						position: absolute;
+						z-index: 0;
+					}
+				}
+
+				.heading {
+					font-weight: 500;
+					line-height: 2;
+				}
+
+				.info {
+					color: #F44336;
+					font-size: 0.8em;
+					font-style: italic;
+					margin-top: 0.5em;
+					position: relative;
+					z-index: 10;
+				}
+			}
+		}
+	}
+
+	#start-import {
+		&:before {
+			content: attr(data-text);
+		}
+	}
+
+	.wrapper-finish {
+		position: absolute;
+		top: 4.7em;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(255, 255, 255, 0.9);
+		opacity: 0;
+		z-index: -1;
+		display: none;
+		transition: all 0.3s ease-out;
+
+		.full-box {
+			height: 100%;
+			position: relative;
+
+			.middle {
+				position: absolute;
+				width: 100%;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+
+			.notification {
+				.icon {
+					font-size: 10em;
+					display: block;
+					min-height: 100px;
+
+					&:before {
+						font-family: 'icomoon';
+					}
+				}
+
+				.details-success,
+				.details-error {
+					display: none;
+				}
+			}
+		}
+
+		&.success {
+			.notification {
+				.icon {
+					&:before {
+						color: #4CAF50;
+						content: '\eb94';
+					}
+				}
+
+				.details-success {
+					display: block;
+				}
+			}
+		}
+
+		&.failed {
+			.notification {
+				.icon {
+					&:before {
+						color: #9E9E9E;
+						content: '\eb9c';
+					}
+				}
+
+				.details-error {
+					display: block;
+
+					.how-to {
+						font-size: 1.2em;
+						line-height: 1.5;
+						background-color: #eee;
+						padding: 2em;
+						max-height: 100px;
+						overflow-y: scroll;
+
+						&:before {
+							content: '\ec56';
+							font-family: 'icomoon';
+							color: #2196F3;
+							padding-right: 1em;
+						}
+					}
+
+					.get-support {
+						padding: 1em;
+						line-height: 3;
+
+						a {
+							margin-right: 1em;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.tc-modal-importer-uninstall {
+	.main {
+		padding-top: 40px;
+		padding-bottom: 100px;
+	}
+}

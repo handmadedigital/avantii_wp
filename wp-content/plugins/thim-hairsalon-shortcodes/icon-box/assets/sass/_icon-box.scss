@@ -1,0 +1,50 @@
+.thim-sc-icon-box {
+  .smicon-box {
+    &:after {
+      content: '';
+      clear: both;
+      display: block;
+    }
+    .icon {
+      float: left;
+      margin-right: 8px;
+      @include transition(all 0.2s ease-in-out 0s);
+    }
+    .content {
+      float: left;
+      h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        line-height: 100%;
+      }
+      .title {
+        margin-bottom: 5px;
+      }
+    }
+    &.icon-right {
+      .icon {
+        float: right;
+        margin-right: 0;
+        margin-left: 8px;
+      }
+    }
+    &.icon-top {
+      .icon,
+      .content {
+        margin-left: 0;
+        margin-right: 0;
+        width: auto !important;
+        height: auto !important;
+        display: block !important;
+        float: none !important;
+        .title {
+          margin-bottom: 0 !important;
+        }
+      }
+      .icon {
+        text-align: center !important;
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+

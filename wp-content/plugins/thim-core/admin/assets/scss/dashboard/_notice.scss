@@ -1,0 +1,26 @@
+.notifications {
+	margin-bottom: 1em;
+
+	.tc-notice {
+		background-color: #fff;
+		margin: 0.5em 0 1em;
+		border-left: 4px solid #fff;
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+
+		.content {
+			padding: 0.8em 1em;
+		}
+
+		&.tc-success {
+			border-color: #4caf50;
+		}
+
+		&.tc-warning {
+			border-color: #ffc107;
+		}
+
+		&.tc-error {
+			border-color: #F44336;
+		}
+	}
+}

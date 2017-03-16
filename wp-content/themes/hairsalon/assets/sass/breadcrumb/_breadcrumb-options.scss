@@ -1,0 +1,36 @@
+/*
+ * Page title style from customizer */
+
+.main-top {
+  height: $thim_page_title_height;
+  .overlay-top-header {
+    background-color: $thim_page_title_background_color;
+  }
+  .content {
+    h1,
+    h2 {
+      font-size: $thim_font_page_title_font_size;
+      color: $thim_font_page_title_color;
+    }
+  }
+}
+
+#breadcrumbs li,
+.woocommerce nav.woocommerce-breadcrumb {
+  font-size: $thim_page_title_breadcrumb_font_size;
+  color: $thim_page_title_breadcrumb_color;
+  span, a {
+    font-size: $thim_page_title_breadcrumb_font_size;
+    color: $thim_page_title_breadcrumb_color;
+  }
+}
+
+.icon-default {
+  #breadcrumbs,
+  nav.woocommerce-breadcrumb a {
+    &:after {
+      background: $thim_page_title_breadcrumb_color;
+    }
+  }
+}
+

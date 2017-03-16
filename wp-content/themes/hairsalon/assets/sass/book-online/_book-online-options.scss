@@ -1,0 +1,76 @@
+.thim-sc-reservations {
+  input {
+    color: $thim_font_body_color;
+  }
+  input::-webkit-input-placeholder {
+    color: $thim_font_body_color;
+  }
+  input:-moz-placeholder {
+    color: $thim_font_body_color;
+  }
+  input::-moz-placeholder {
+    color: $thim_font_body_color;
+  }
+  input:-ms-input-placeholder {
+    color: $thim_font_body_color;
+  }
+
+  .dk-select {
+    .dk-select-options li,
+    .dk-selected {
+      color: $thim_font_body_color;
+    }
+    .dk-option-selected,
+    .dk-option-highlight {
+      background: $thim_body_primary_color;
+    }
+  }
+}
+
+#ui-datepicker-div {
+  .ui-datepicker-title {
+    background: $thim_body_primary_color;
+    border: 1px solid $thim_body_primary_color;
+  }
+  .ui-state-highlight,
+  .ui-widget-content .ui-state-highlight,
+  .ui-widget-header .ui-state-highlight {
+    border-color: $thim_body_primary_color !important;
+    background: $thim_body_primary_color !important;
+  }
+  .ui-state-hover {
+    background: $thim_body_primary_color !important;
+  }
+
+  .ui-timepicker-div {
+    select {
+      border-color: $border-color !important;
+      font-size: $thim_font_body_font_size;
+      color: $thim_font_body_color !important;
+    }
+  }
+  .ui-datepicker-buttonpane {
+    button {
+      background: $thim_font_title_color;
+      &:hover {
+        border-color: $thim_body_primary_color;;
+      }
+      &.ui-datepicker-close {
+        background: $thim_body_primary_color;
+        &:hover {
+          background: darken($thim_body_primary_color,10%);
+        }
+      }
+    }
+  }
+  dt {
+    color: $thim_font_title_color;
+  }
+  th {
+    color: $thim_font_title_color;
+  }
+}
+
+div.wpcf7-mail-sent-ok {
+  border: 2px solid $thim_body_primary_color !important;
+}
